@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GENERADOR DE CONTRASENAS</title>
 
-      <!-- css links -->
-        <link rel="stylesheet" type="text/css" href="./css/styles.css">
-</head>
-<body>
-    
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <!-- boxicons css -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="container">
-        <div id="output"></div>
-            <div id="panel">
-                <button id="generater">Generater</button>
+      <div id="output"></div>
+      <div id="panel">
+        <button id="generater">Generater</button>
 
-                <input type="range" min="4" max="30" value="10" id="range">
-                <span>0</span>
-            </div>
+        <input type="range" min="4" max="30" value="10" id="range" />
+        <span>0</span>
+      </div>
 
-            <div id="include">
-                <div>
-                    <span>Number</span>
+      <div id="include">
+        <div>
+          <span>Number</span>
 
-                    <input type="checkbox" id="num" hidden>
-                    <label for="num"></label>
-                </div>
-
-                <div>
-                    <span>Symbol</span>
-                    <input type="checkbox" id="symbol" hidden>
-                    <label for="symbol"></label>
-                </div>
-
-                <div>
-                    <span>LowerCaseWord</span>
-                    <input type="checkbox" id="lowerCaseWord" hidden>
-                    <label for="lowerCaseWord"></label>
-                </div>
-
-                <div>
-                    <span>UpperCaseWord</span>
-                    <input type="checkbox" id="upperCaseWord" hidden>
-                    <label for="upperCaseWord"></label>
-                </div>
-            </div>
+          <input type="checkbox" id="num" hidden />
+          <label for="num"></label>
         </div>
 
+        <div>
+          <span>Symbol</span>
+          <input type="checkbox" id="symbol" hidden />
+          <label for="symbol"></label>
+        </div>
+
+        <div>
+          <span>LowerCaseWord</span>
+          <input type="checkbox" id="lowerCaseWord" hidden />
+          <label for="lowerCaseWord"></label>
+        </div>
+
+        <div>
+          <span>UpperCaseWord</span>
+          <input type="checkbox" id="upperCaseWord" hidden />
+          <label for="upperCaseWord"></label>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h4>Eduardo Martinez</h4>
+      <p>
+        <i class="bx bxl-html5"></i>
+        <i class="bx bxl-css3"></i>
+        <i class="bx bxl-javascript"></i>
+      </p>
+    </footer>
     <!-- JS link -->
-  <script src="js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
 </html>

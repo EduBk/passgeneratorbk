@@ -12,6 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #container {
@@ -120,4 +122,13 @@ label::before {
 input[type="checkbox"]:checked + label::before {
     transform: translateX(149%);
     background: #5a3eff;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+footer p {
+    color:#00fff4;
 }
